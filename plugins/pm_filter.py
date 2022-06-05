@@ -407,10 +407,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
-        ], [
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('ℹ️ Help', callback_data='help')
+        ],[
+            InlineKeyboardButton('📢 Tamil Mvs 2.0', url='https://t.me/Tamil_Mvs_Offl')
+        ],[
+            InlineKeyboardButton('👥 Request Group', url='https://t.me/Tamil_Mvs_Offl')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -438,7 +439,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/Tamil_Mvs_Offl'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -701,14 +702,13 @@ async def auto_filter(client, msg, spoll=False):
             release_date=imdb['release_date'],
             year=imdb['year'],
             genres=imdb['genres'],
-            poster=imdb['poster'],
             plot=imdb['plot'],
             rating=imdb['rating'],
             url=imdb['url'],
             **locals()
         )
     else:
-        cap = f"Here is what i found for your query {search}"
+        cap = f"**Movie Name :** {search} \n\n Powered By : @Tamil_Mvs_OFfl "
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
