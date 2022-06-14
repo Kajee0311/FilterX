@@ -44,11 +44,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat='')
         ],[
-            InlineKeyboardButton('📢 Tamil Mvs 2.0', url='https://t.me/Tamil_Mvs_Offl')
-        ],[
-            InlineKeyboardButton('👥 Request Group', url='https://t.me/Tamil_Mvs_Offl')
+            InlineKeyboardButton('📢 Tamil Mvs 2.0', url='https://t.me/Tamil_Mvs_Offl'),
+            InlineKeyboardButton('👥 Request Group', url='https://t.me/+EVI0nUzt1yljZGU1')
         ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('🧲 Check Our Channels', callback_data='about')
@@ -93,11 +92,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat='')
         ],[
-            InlineKeyboardButton('📢 Tamil Mvs 2.0', url='https://t.me/Tamil_Mvs_Offl')
-        ],[
-            InlineKeyboardButton('👥 Request Group', url='https://t.me/Tamil_Mvs_Offl')
+            InlineKeyboardButton('📢 Tamil Mvs 2.0', url='https://t.me/Tamil_Mvs_Offl'),
+            InlineKeyboardButton('👥 Request Group', url='https://t.me/+EVI0nUzt1yljZGU1')
         ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('🧲 Check Our Channels', callback_data='about')
