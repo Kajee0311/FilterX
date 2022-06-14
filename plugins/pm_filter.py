@@ -406,12 +406,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ℹ️ Help', callback_data='help')
+            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat='')
         ],[
             InlineKeyboardButton('📢 Tamil Mvs 2.0', url='https://t.me/Tamil_Mvs_Offl')
         ],[
             InlineKeyboardButton('👥 Request Group', url='https://t.me/Tamil_Mvs_Offl')
+        ],[
+            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('🧲 Check Our Channels', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -439,8 +441,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/Tamil_Mvs_Offl'),
-            InlineKeyboardButton('♥️ Source', callback_data='source')
+            InlineKeyboardButton('1️⃣ Tamil MVs Movies 2.0 ', url='https://t.me/+XfgDQL6fMiAzMmFl')
+        ],[
+            InlineKeyboardButton('2️⃣ Tamil Dubbed Movies', url='https://t.me/+sbbkhNX8r1s5MTJl')
+        ],[
+            InlineKeyboardButton('3️⃣ Moves Requesting Area', url='https://t.me/+EVI0nUzt1yljZGU1')
+        ],[
+            InlineKeyboardButton('4️⃣ MX Cinemas', url='https://t.me/+oZPHl90Vu8xkNzRl')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
