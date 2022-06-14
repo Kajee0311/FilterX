@@ -1,15 +1,18 @@
 class script(object):
-    START_TXT = """HELLO {},
-MY NAME IS {}, I CAN PROVIDE MOVIES, JUST ADD ME TO YOUR GROUP AND ENJOY 😍"""
+    START_TXT = """HELLO !
+
+I Can Provide Movies,Just Add me to your group & Enjoy ✌️
+
+#Note 
+
+⭕️ Just Type Movie Name with Year
+⭕️  Example : Master 2021
+⭕️ Search in <code>Google</code> for Correct Spelling
+
+⚠️ Before Requesting Movies, Please Check That movie is Released or not"""
     HELP_TXT = """HEY {}
 HERE IS THE HELP FOR MY COMMANDS."""
-    ABOUT_TXT = """<b>✯ 𝖬𝖸 𝖭𝖠𝖬𝖤: 𝖬𝗏𝗌 𝖥𝗂𝗅𝗍𝖾𝗋 𝖡𝗈𝗍
-✯ 𝖢𝖱𝖤𝖠𝖳𝖮𝖱: 𝖡𝖤𝖱𝖫𝖨𝖭
-✯ 𝖬𝖠𝖨𝖭 𝖢𝖧𝖠𝖭𝖭𝖤𝖫 : <a href=https://t.me/Tamil_Mvs_Offl> 𝖢𝖫𝖨𝖢𝖪 𝖧𝖤𝖱𝖤 </a>
-✯ 𝖬𝖵𝖲 𝖬𝖮𝖵𝖤𝖨𝖲 𝟤.𝟢 : <a href=https://t.me/+XfgDQL6fMiAzMmFl> 𝖢𝖫𝖨𝖢𝖪 𝖧𝖤𝖱𝖤  </a>
-✯ 𝖣𝖴𝖡𝖡𝖤𝖣 𝖬𝖵𝖲 : <a href=https://t.me/+sbbkhNX8r1s5MTJl> 𝖢𝖫𝖨𝖢𝖪 𝖧𝖤𝖱𝖤 </a>
-✯ 𝖬𝖷 𝖢𝖨𝖭𝖤𝖬𝖠𝖲 : <a href=https://t.me/+oZPHl90Vu8xkNzRl> 𝖢𝖫𝖨𝖢𝖪 𝖧𝖤𝖱𝖤 </a>
-✯ 𝖬𝖮𝖵𝖨𝖤 𝖱𝖤𝖰𝖴𝖤𝖲𝖳 : <a href=https://t.me/+EVI0nUzt1yljZGU1> 𝖢𝖫𝖨𝖢𝖪 𝖧𝖤𝖱𝖤  </a> </b>"""
+    ABOUT_TXT = """<b>Please Check Our Channels & Groups Given Below 👇</b>"""
     SOURCE_TXT = """<b>Share& Support US</b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
