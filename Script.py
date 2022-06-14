@@ -1,15 +1,15 @@
 class script(object):
-    START_TXT = """HELLO !
+    START_TXT = """<b>HELLO !
 
 I Can Provide Movies,Just Add me to your group & Enjoy ✌️
 
 #Note 
 
 ⭕️ Just Type Movie Name with Year
-⭕️  Example : Master 2021
-⭕️ Search in <code>Google</code> for Correct Spelling
+⭕️  Example : <i>Master 2021</i>
+⭕️ Search in </b><code>Google</code><b> for Correct Spelling
 
-⚠️ Before Requesting Movies, Please Check That movie is Released or not"""
+⚠️ Before Requesting Movies, Please Check That movie is Released or not</b>"""
     HELP_TXT = """HEY {}
 HERE IS THE HELP FOR MY COMMANDS."""
     ABOUT_TXT = """<b>Please Check Our Channels & Groups Given Below 👇</b>"""
