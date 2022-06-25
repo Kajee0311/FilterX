@@ -715,7 +715,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"**Movie Name :** {search} \n\n Powered By : @Tamil_Mvs_OFfl "
+        cap = f"**💿 Movie Name :** {search} \n\n **✅ Join : @Tamil_Mvs_OFfl** "
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
