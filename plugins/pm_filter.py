@@ -413,7 +413,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('👥 Request Group', url='https://t.me/+EVI0nUzt1yljZGU1')
         ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('🧲 Check Our Channels', callback_data='about')
+            InlineKeyboardButton('⚠️ Check Our Channels', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
