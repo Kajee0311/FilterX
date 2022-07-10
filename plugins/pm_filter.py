@@ -441,14 +441,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('1️⃣ Tamil MVs Movies 2.0 ', url='https://t.me/+XfgDQL6fMiAzMmFl')
+            InlineKeyboardButton('🟢 Tamil MVs Movies 2.0 🟢 ', url='https://t.me/+XfgDQL6fMiAzMmFl')
         ],[
-            InlineKeyboardButton('2️⃣ Tamil Dubbed Movies', url='https://t.me/+sbbkhNX8r1s5MTJl')
+            InlineKeyboardButton('🟡 Tamil Dubbed Movies 🟡', url='https://t.me/+ZB2uIDoIDVs1YWJl')
         ],[
-            InlineKeyboardButton('3️⃣ Movies Requesting Area', url='https://t.me/+EVI0nUzt1yljZGU1')
+            InlineKeyboardButton('🔵 Movies Requesting Group 🔵', url='https://t.me/+EVI0nUzt1yljZGU1')
         ],[
-            InlineKeyboardButton('4️⃣ MX Cinemas', url='https://t.me/+oZPHl90Vu8xkNzRl')
+            InlineKeyboardButton('🟣 MX Cinemas (Links) 🟣', url='https://t.me/+w2rNCoE9JMBkYjc9')
         ], [
+            InlineKeyboardButton('⚪️ Web Series Tamil ⚪️', url='https://t.me/+kVEEFuW6bqJiZDk1')
+        ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ]]
